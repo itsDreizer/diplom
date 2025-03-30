@@ -1,0 +1,11 @@
+{
+  "name": "praktika.ru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --proxy praktika.ru --files *"
+  },
+  "author": "",
+  "license": "ISC"
+}
