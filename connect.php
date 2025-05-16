@@ -1,3 +1,2 @@
 <?php
-$db =  mysqli_connect("localhost", "root", "root", "main");
-?>
+$db =  mysqli_connect("localhost", "root", "", "main");

@@ -14,10 +14,16 @@
     <div class="pages">
       <ul class="pages-list">
         <li class="pages-list__item">
-          <a class="pages-list__link" href="form.php">Форма</a>
+          <a class="pages-list__link" href="form_protected.php">Форма (защищенная)</a>
         </li>
         <li class="pages-list__item">
-          <a class="pages-list__link" href="comments.php">Комментарии</a>
+          <a class="pages-list__link" href="form_unprotected.php">Форма (незащищенная)</a>
+        </li>
+        <li class="pages-list__item">
+          <a class="pages-list__link" href="comments_protected.php">Комментарии (защищенные)</a>
+        </li>
+        <li class="pages-list__item">
+          <a class="pages-list__link" href="comments_unprotected.php">Комментарии (незащищенные)</a>
         </li>
       </ul>
     </div>
