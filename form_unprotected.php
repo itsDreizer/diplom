@@ -10,6 +10,9 @@
 
 <body>
   <div class="container">
+    <h1 style="margin-bottom: 40px;">Вход в аккаунт</h1>
+
+
     <form method="post" action="login_unprotected.php" novalidate autocomplete="off" class="form">
       <label class="form__label" for="login">Введите логин:</label>
       <input placeholder="Введите логин" class="form__input" name="login" type="text">

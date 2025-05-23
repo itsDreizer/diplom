@@ -24,7 +24,6 @@
       $data = array_reverse($data);
 
       foreach ($data as $comment) {
-        // Текст уже экранирован в базе данных, просто выводим его
         $safeText = $comment['textdata'];
       ?>
         <div class="comment">

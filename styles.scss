@@ -118,7 +118,8 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: fit-content;
+  min-width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
   height: 100%;

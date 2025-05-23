@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <h1>Иммитация XSS атак и SQL Инъекций</h1>
+    <h1>Имитация XSS, CSRF атак и SQL Инъекций</h1>
     <div class="pages">
       <ul class="pages-list">
         <li class="pages-list__item">
@@ -24,6 +24,9 @@
         </li>
         <li class="pages-list__item">
           <a class="pages-list__link" href="comments_unprotected.php">Комментарии (незащищенные)</a>
+        </li>
+        <li class="pages-list__item">
+          <a class="pages-list__link" href="profile.php">Профиль</a>
         </li>
       </ul>
     </div>
